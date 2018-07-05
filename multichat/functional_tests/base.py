@@ -219,7 +219,6 @@ class FunctionalTest(Setup):
         # (404 pages load the quickest)
         self.browser.get(self.server_url)
         # self.browser.get(self.server_url + '/404.html')
-        import pdb; pdb.set_trace()
 
         # add the newly created session cookie to selenium webdriver.
         self.browser.add_cookie(session_cookie)
